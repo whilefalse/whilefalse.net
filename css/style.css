@@ -1,0 +1,400 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Droid Sans", Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 0.85em;
+    color: #656565;
+    background-color: white;
+}
+
+ol{
+    margin:1.5em 1.5em 1.5em 4em;
+}
+
+.inner-body {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+#content {
+    min-height:680px;
+    margin-top: 35px;
+}
+
+#sidebar {
+    float: left;
+    width: 350px;
+    min-height:680px;
+    position:relative;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    color: #015272;
+}
+
+h1 a, h2 a, h3 a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family:"Droid Sans",Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+h2 a:hover {
+    color:#58bbeb;
+}
+
+/* Head */
+
+#head {
+    background-color: #CDD452;
+    margin-bottom: 1em;
+    color: #262223;
+    height:168px;
+    overflow: hidden;
+    position: relative;
+}
+
+#head .inner-body {
+    padding-top: 0.7em;
+    text-align:center;
+}
+
+#head h1 {
+    padding-top:10px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+#head h1 a {
+    color: #261F27;
+    font-size:1.7em;
+    font-weight:bold;
+    font-family: "Ubuntu", monospace;
+}
+
+#login-controls{
+    text-align:right;
+    height:1.5em;
+}
+
+#head a {
+    font-family: "Droid Sans", Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color: white;
+}
+
+#head a:hover {
+    color: #f08934;
+}
+
+#site-description {
+    font-family: "Ubuntu", monospace;
+    color: #261F27;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/* Sidebar */
+#sidebar .header {
+    font-size: 1.6em;
+    font-family: "Droid Sans", Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color: #888;
+}
+
+#sidebar .header img {
+    margin: 0;
+}
+
+#sidebar li {
+    list-style-type: none;
+    border-bottom: 1px dotted #dddddd;
+    margin: 0.3em 0;
+    text-indent: -1em;
+}
+
+#sidebar ul {
+    margin-left: 0.5em;
+    position: relative;
+    left: 1em;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+}
+
+#sidebar ul a:hover {
+    text-decoration: underline;
+}
+
+#sidebar .last-comments .author {
+    padding-right: 1em;
+}
+
+/* Blog posts */
+.metadata {
+    margin-bottom: 0.5em;
+    font-family: "Droid Sans", Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 0.8em;
+}
+
+.metadata a {
+    text-decoration: none;
+}
+
+.read-more {
+    text-align: right;
+}
+
+.read-more a {
+    text-decoration: none;
+}
+
+.post {
+    margin-bottom: 2em;
+}
+
+.bookmarks {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #fbfbfb;
+}
+
+.bookmarks img {
+    margin: 0;
+}
+
+.bookmarks a:hover {
+    border-bottom: 2px solid #ccc;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 1em;
+    overflow:hidden;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+/* Common classes */
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+/* Page layout */
+#content .inbox {
+    margin-right: 1em;
+}
+
+#content{
+}
+
+#sidebar{
+    width:30%;
+}
+
+#sidebar .inbox{
+    border-left: 2px dotted #aaaaaa;
+    padding-left:20px;
+    overflow:visible;
+    height:100%;
+    position:absolute;
+}
+
+#sidebar .inbox .block{
+    margin-bottom:10px;
+}
+
+#sidebar ul{
+    margin-bottom:0px;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 2em;
+    background-color: #F9722E;
+    text-align:center;
+}
+
+#footer .inner-body {
+    //padding-top: 1em;
+    //padding-bottom: 1em;
+    text-align:center;
+    width:100%;
+}
+
+#footer, #footer a {
+    color: white;
+}
+
+/* Tag cloud */
+
+.tag-cloud a {
+    font-family: "Droid Sans", Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+.tag-cloud .tag-1 {
+    font-size: 0.9em;
+}
+
+.tag-cloud .tag-2 {
+    font-size: 1.2em;
+}
+
+.tag-cloud .tag-3 {
+    font-size: 1.4em;
+}
+
+.tag-cloud .tag-4 {
+    font-size: 1.65em;
+}
+
+.tag-cloud .tag-5 {
+    font-size: 1.8em;
+}
+
+/* Forms */
+.errorlist {
+    margin: 0;
+    padding: 0;
+}
+
+.errorlist li {
+    list-style-type: none;
+    color: #c00;
+    font-weight: bold;
+}
+
+#login-box {
+    display: none;
+}
+
+.login-control{
+    color:white;
+}
+
+#static-pages-links{
+    float:left;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 2px;
+}
+
+#static-pages-links a{
+    color:#CDD452;
+    background-color:#261F27;
+    margin-right:10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
+    padding-top:5px;
+    font-size:16px;
+    font-weight:bold;   
+/*    font-family:"Ubuntu", monospace;*/
+    text-decoration:none;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;    
+}
+#static-pages-links span.selected{
+    color:#261F27;
+    background-color:transparent;
+    margin-right:10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
+    padding-top:5px;
+    font-size:16px;
+    font-weight:bold;   
+/*    font-family:"Ubuntu", monospace;*/
+    text-decoration:none;
+//    border-left:1px dashed black;
+//    border-right:1px dashed black;
+//    border-top:1px dashed black;
+}
+
+#openid_url {
+    background: #FFFFFF url('../../img/openid-icon.gif') no-repeat scroll 0pt 50%;
+    padding-left: 18px;
+}
+
+form .wide label {
+    display: block;
+}
+
+form .wide input, form .wide textarea, form .wide select {
+    display: block;
+}
+
+form .wide input, form .wide textarea {
+    width: 80%;
+}
+#comment-form{
+    display:none;
+}
+div.text, div.text p{
+    overflow:hidden;
+}
+div.text{ 
+    margin-top:2em;
+}
+.post h2, .post .metadata, .post h1{ 
+    display:inline;
+}
+.text-short p{ 
+    margin-bottom:0px;
+}
+.notices{
+   font-size:2em;
+   list-style:none;
+}
+pre.cv{
+    text-align:justify;
+    font-size:0.9em;
+}
+span.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+div.blog-image-wrapper{
+    text-align:center;
+    width:100%;
+    margin-bottom:20px;
+}
+img.blog-image{
+    width:300px;
+    margin:auto;
+}
+div.blog-image-wrapper blockquote{
+    width:400px;
+    margin:auto;
+}
+
+span.latex img{
+    margin: 0;
+    float: none;
+    vertical-align: middle;
+}
+
+#image-of-me{
+    margin-top: 5px;
+}

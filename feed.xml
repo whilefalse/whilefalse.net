@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <atom:link href="http://www.whilefalse.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://www.whilefalse.net/</link>
+    <description></description>
+    <pubDate>Wed, 25 Nov 2015 20:34:29 +0000</pubDate>
+    
+      <item>
+        <title>Fuel Poverty in England (2011)</title>
+        <link>http://www.whilefalse.net/2013/12/19/fuel-poverty-england-2011</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2013/12/19/fuel-poverty-england-2011</guid>
+        <description>&lt;p&gt;Using the government’s Open Data, and the constituency boundaries provided by MapIt, I’ve been analysing the distribution of fuel poverty in England (since this seems to be on all the party’s agendas nowadays).&lt;!--more--&gt; Below shows the distribution of fuel poverty in England in 2011 (I couldn’t get the data for the whole of the UK).&lt;/p&gt;
+
+&lt;iframe style=&quot;width: 100%&quot; class=&quot;map&quot; width=&quot;500&quot; height=&quot;500&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://www.google.com/fusiontables/embedviz?q=select+col3+from+1kXdJCcECTSK3V-BBfT-wD-WS-DTt7GDffl66ddw&amp;amp;viz=MAP&amp;amp;h=false&amp;amp;lat=53.05649578993041&amp;amp;lng=-2.6522660468749564&amp;amp;t=1&amp;amp;z=6&amp;amp;l=col3&amp;amp;y=2&amp;amp;tmplt=2&amp;amp;hml=KML&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;small&gt;Data from &lt;a href=&quot;http://data.gov.uk/dataset/fuel_poverty_sub-regional_statistics&quot;&gt;data.gov&lt;/a&gt;, constituency boundaries &lt;a href=&quot;http://mapit.mysociety.org/&quot;&gt;Powered by MapIt&lt;/a&gt;. The map shows the %age of residents in each constituency that are in fuel poverty. Fuel poverty is defined by the new &lt;a href=&quot;https://www.gov.uk/government/publications/fuel-poverty-a-framework-for-future-action&quot;&gt;Low Income High Costs framework&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;The results are interesting, but sadly rather predictable – the North-South divide is evident, although there are some islands of fuel poverty in the South and London (e.g. Luton South, with 14.9% fuel poverty).&lt;/p&gt;
+
+&lt;p&gt;The worst affected places are cities and towns in the Midlands/North of England:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blackpool South (19.6%)&lt;/li&gt;
+  &lt;li&gt;Birmingham Perry Barr (19.4%)&lt;/li&gt;
+  &lt;li&gt;Liverpool Wavertree (19.4%)&lt;/li&gt;
+  &lt;li&gt;Birmingham Hall Green (19.1%)&lt;/li&gt;
+  &lt;li&gt;Manchester Gorton (18.7%)&lt;/li&gt;
+  &lt;li&gt;Middlesborough (18.7%)&lt;/li&gt;
+  &lt;li&gt;Nottingham East (18.7%)&lt;/li&gt;
+  &lt;li&gt;Birmingham Selly Oak (18.2%)&lt;/li&gt;
+  &lt;li&gt;Leicester South (18.1%)&lt;/li&gt;
+  &lt;li&gt;Stoke-on-Trent Central (17.8%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The least affected regions are all in London and the South East:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Poplar and Limehouse, London (2.9%)&lt;/li&gt;
+  &lt;li&gt;Bermondsey and Old Southwark, London (3.3%)&lt;/li&gt;
+  &lt;li&gt;Bethnal Green and Bow, London (4.7%)&lt;/li&gt;
+  &lt;li&gt;Milton Keynes South (4.8%)&lt;/li&gt;
+  &lt;li&gt;Basingstoke (4.9%)&lt;/li&gt;
+  &lt;li&gt;Hackney South and Shoreditch, London (5.1%)&lt;/li&gt;
+  &lt;li&gt;Bracknell (5.2%)&lt;/li&gt;
+  &lt;li&gt;Milton Keynes North (5.3%)&lt;/li&gt;
+  &lt;li&gt;Crawley (5.3%)&lt;/li&gt;
+  &lt;li&gt;Camberwell and Peckham, London (5.4%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A few of those come as a bit of a surprise to me, e.g. Bethnal Green and Bow has the 3rd lowest rate of fuel poverty in the country, yet has a &lt;a href=&quot;http://www.theguardian.com/news/datablog/2010/nov/17/unemployment-and-employment-statistics-economics&quot;&gt;high unemployment rate&lt;/a&gt; compared to the rest of the country.&lt;/p&gt;
+
+&lt;p&gt;It would be nice in future to plot similar metrics like unemployment, average income, housing benefit claimants, demographics etc., to see if this can be explained.&lt;/p&gt;
+
+&lt;p&gt;Watch the space for more on this topic, this is just the surface of the data that is out there on fuel poverty.&lt;/p&gt;
+
+&lt;p&gt;Coming next: Move this map to OpenStreetMap!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Dec 2013 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>Port Forwarding In Linux</title>
+        <link>http://www.whilefalse.net/2012/04/20/port-forwarding-linux</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2012/04/20/port-forwarding-linux</guid>
+        <description>&lt;p&gt;For reasons which I will not go into for fear of boring everyone, we were trying to forward local requests on port 80 to port 3000 (running a Rails app), without booting the Rails app on port 80, and without having a web server in the middle to do the redirection.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter NetCat.&lt;/p&gt;
+
+&lt;p&gt;The default Ubuntu version of NetCat (&lt;em&gt;nc&lt;/em&gt;) doesn’t contain the required &lt;em&gt;-c&lt;/em&gt; option. In order to do this, you will need to install &lt;em&gt;nmap&lt;/em&gt;, which contains a version of NetCat that supports the necessary option:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install nmap&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then simply run the following command to map the ports:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo ncat -l -p &lt;span class=&quot;m&quot;&gt;80&lt;/span&gt; -c &lt;span class=&quot;s1&quot;&gt;&amp;#39;ncat localhost 3000&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That command catches any requests to port &lt;em&gt;80&lt;/em&gt; on the local machine and forwards them to &lt;em&gt;localhost&lt;/em&gt; on port &lt;em&gt;3000&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Apr 2012 00:00:00 +0100</pubDate>
+      </item>
+    
+      <item>
+        <title>Upgrading Rails Engines to Rails 3.2</title>
+        <link>http://www.whilefalse.net/2012/02/24/upgrading-rails-engines-rails-32</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2012/02/24/upgrading-rails-engines-rails-32</guid>
+        <description>&lt;p&gt;Wtih the recent release of Rails 3.2, we have been trying to upgrade all our engines at Sage to use Rails 3.2. Everything works great, except scaffolding.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;If, for example, I run this command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rails g scaffold thing name:string&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And then:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git status&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I see the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# Untracked files:
+#   (use &amp;quot;git add &amp;lt;file&amp;gt;...&amp;quot; to include in what will be committed)
+#
+#	spec/dummy/app/assets/javascripts/things.js
+#	spec/dummy/app/assets/stylesheets/scaffold.css
+#	spec/dummy/app/assets/stylesheets/things.css
+#	spec/dummy/app/controllers/things_controller.rb
+#	spec/dummy/app/helpers/things_helper.rb
+#	spec/dummy/app/models/thing.rb
+#	spec/dummy/app/views/things/
+#	spec/dummy/db/
+#	spec/dummy/log/development.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see, all my generated files have been put into my &lt;em&gt;dummy application&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The reason for this is that the way engine generator tasks are discovered has changed in Rails 3.2. In 3.1, the engine’s &lt;em&gt;script/rails&lt;/em&gt; would just load the dummy’s &lt;em&gt;script/rails&lt;/em&gt; file, and the ENGINE_PATH modified to make sure everything goes in the correct place.&lt;/p&gt;
+
+&lt;p&gt;To fix this, just change the content of &lt;em&gt;script/rails&lt;/em&gt; to the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env ruby&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# This command will automatically be run when you run &amp;quot;rails&amp;quot; with Rails 3 gems installed from the root of your application.&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;ENGINE_ROOT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expand_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;../..&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;ENGINE_PATH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expand_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;../../lib/your_engine_name/engine&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rails/all&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rails/engine/commands&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Of course, remember to replace &lt;em&gt;your_engine_name&lt;/em&gt; by the name of your engine.&lt;/p&gt;
+
+&lt;p&gt;Then if we try again:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rails g scaffold thing name:string&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And look at git:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git status&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We see:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# Untracked files:
+#   (use &amp;quot;git add &amp;lt;file&amp;gt;...&amp;quot; to include in what will be committed)
+#
+#	app/assets/javascripts/rails_engine31/
+#	app/assets/stylesheets/rails_engine31/
+#	app/assets/stylesheets/scaffold.css
+#	app/controllers/rails_engine31/
+#	app/helpers/rails_engine31/
+#	app/models/
+#	app/views/rails_engine31/
+#	db/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So now we have the correct paths for our generated files.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>Testing Rails Engines With Rspec</title>
+        <link>http://www.whilefalse.net/2012/01/25/testing-rails-engines-rspec</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2012/01/25/testing-rails-engines-rspec</guid>
+        <description>&lt;p&gt;After my lightning talk at &lt;a href=&quot;http://rubynortheast.com/&quot;&gt;Ruby North East&lt;/a&gt;, a couple of people asked me how to go about getting set up with an engine with RSpec as the testing framework. We’ve automated this at Sage, but here’s what’s necessary.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;generate-a-new-engine&quot;&gt;Generate a new engine&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rails plugin new myengine --mountable --dummy-path&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;spec/dummy -T --skip-bundle&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;plugin new&lt;/em&gt; - Tells Rails we’re generating a plugin&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;–mountable&lt;/em&gt; - Tells Rails that it’s a mountable engine&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;–dummy-path=spec/dummy&lt;/em&gt; - Makes the dummy application generate in the ‘spec’ folder as opposed to ‘test’&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;-T&lt;/em&gt; - Disables test_unit&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;–skip-bundle&lt;/em&gt; - Not strictly necessary but saves a few minutes/hours of your life&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;add-rspec-to-the-gemfile&quot;&gt;Add RSpec to the Gemfile&lt;/h2&gt;
+
+&lt;p&gt;Add to your Gemfile:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rspec-rails&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And then run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;install-rspec&quot;&gt;Install RSpec&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rails g rspec:install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;modify-spechelper-to-know-about-the-dummy-app&quot;&gt;Modify spec_helper to know about the dummy app&lt;/h2&gt;
+
+&lt;p&gt;The default generated spec_helper will try to load your Rails environment from the wrong place. So, change:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expand_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;../../config/environment&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;to:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expand_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;../../spec/dummy/config/environment&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now the dummy app’s environment will be loaded instead.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-rspec-generators&quot;&gt;Use RSpec Generators&lt;/h2&gt;
+
+&lt;p&gt;Now this step isn’t strictly necessary, as RSpec’s default Rails test generators simply don’t work with engines (they don’t namespace stuff correctly and they don’t know how to handle engine route helpers).&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, you may want to enable them purely for the creation of the correct files, which you can modify after generation to work correctly.&lt;/p&gt;
+
+&lt;p&gt;If so, add the following to your “lib/myengine/engine.rb” file, inside the Engine class:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;generators&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_framework&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:rspec&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;integration_tool&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:rspec&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;done&quot;&gt;Done&lt;/h2&gt;
+
+&lt;p&gt;You should now have a working rspec, and when you run ‘bundle exec rspec spec’, it will load your dummy app’s environment for testing.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jan 2012 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>TimThumb Hack Check Script</title>
+        <link>http://www.whilefalse.net/2012/01/03/timthumb-hack-check-script</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2012/01/03/timthumb-hack-check-script</guid>
+        <description>&lt;p&gt;I was recently a victim of the &lt;a href=&quot;http://duckduckgo.com/?q=timthumb+vulnerability&quot;&gt;timthumb vulnerability&lt;/a&gt;. At first I noticed some rogue PHP in all my index.php files, which I cleaned up. But it turned out they had already got in enough to re-hack in no time at all. This time it was my javascript files which all had some obstruficated code in them, causing every page load to make a request to some random site.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I had made some modifications to wordpress themes and such, so fixing it was not a simple case of nuking and re-installing everything. In the end I created local copies of all my sites with a fresh wordpress and fresh themes. Then I committed those to a local git repo and pulled down the live stuff over the top. Then a simple “git diff” (and a few hours of manually checking the differences) and I was pretty confident everything was clean.&lt;/p&gt;
+
+&lt;p&gt;I made a note of all the tricks that the hackers had tried, so I wrote a little bash script to check for any of those. Here it is, free for all to use:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;===BASE 64 DECODE===&amp;quot;&lt;/span&gt;
+grep -R &lt;span class=&quot;s2&quot;&gt;&amp;quot;base64_decode&amp;quot;&lt;/span&gt; *
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;\n\n===JS var _0x HACK===&amp;quot;&lt;/span&gt;
+grep -R &lt;span class=&quot;s2&quot;&gt;&amp;quot;var _0x&amp;quot;&lt;/span&gt; *
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;\n\n===UDP.PHP HACK FILE===&amp;quot;&lt;/span&gt;
+find -name &lt;span class=&quot;s2&quot;&gt;&amp;quot;upd.php&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;\n\n===PINGNOW (USER SNIFFING SCRIPT)===&amp;quot;&lt;/span&gt;
+grep -R &lt;span class=&quot;s2&quot;&gt;&amp;quot;pingnow&amp;quot;&lt;/span&gt; *
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;\n\n===TIMTHUMB===&amp;quot;&lt;/span&gt;
+find -name &lt;span class=&quot;s2&quot;&gt;&amp;quot;*timthumb*&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;s2&quot;&gt;&amp;quot;\n\n===hexdump_lines (IN HACK SCRIPT)===&amp;quot;&lt;/span&gt;
+grep -R &lt;span class=&quot;s2&quot;&gt;&amp;quot;hexdump_lines&amp;quot;&lt;/span&gt; *&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I’ll go through these in order:&lt;/p&gt;
+
+&lt;h2 id=&quot;grep--r-base64decode-&quot;&gt;grep -R “base64_decode” *&lt;/h2&gt;
+
+&lt;p&gt;I found this in all my index.php files with some crazy obstruficated code. This will almost certainly pull up other files in your server, but check each one to make sue it looks legit.&lt;/p&gt;
+
+&lt;h2 id=&quot;grep--r-var-0x-&quot;&gt;grep -R “var _0x” *&lt;/h2&gt;
+
+&lt;p&gt;This was in a load of my javascript files the second time. You should have no results here (apart from the checking script) on a clean server.&lt;/p&gt;
+
+&lt;h2 id=&quot;find--name-updphp&quot;&gt;find -name “upd.php”&lt;/h2&gt;
+
+&lt;p&gt;I found some weird files called upd.php. These were full on massive PHP scripts. As far as I’m aware they pretty much gave a remote user in Russia shell access (via a web browser) to the entire server. If you find any of these files, check to make sure they are yours and not this hacking script.&lt;/p&gt;
+
+&lt;h2 id=&quot;grep--r-pingnow-&quot;&gt;grep -R “pingnow” *&lt;/h2&gt;
+
+&lt;p&gt;This was found in settings.php - it was a user sniffing script. Make sure that all your wordpress users change their username and password, then get rid of the sniffing code wherever it is found.&lt;/p&gt;
+
+&lt;h2 id=&quot;find--name-timthumb&quot;&gt;find -name “*timthumb*”&lt;/h2&gt;
+
+&lt;p&gt;First of all, delete all the timthumb tmp files that already exist. These could easily be compromised. Then running this script periodically should not show up anything weird.&lt;/p&gt;
+
+&lt;h2 id=&quot;grep--r-hexdumplines-&quot;&gt;grep -R “hexdump_lines” *&lt;/h2&gt;
+
+&lt;p&gt;This is a line from the hacking script I mentioned above. In case they have renamed files something other than upd.php, run this to find the code potentially hidden in other files.&lt;/p&gt;
+
+&lt;p&gt;I now have this script running on a CRON job to email me every day to check everything is still fine and dandy. Looks like I’m still clean so far.&lt;/p&gt;
+
+&lt;p&gt;One final point - make sure you check EVERY LINE of files. I found a few where you would reach what looks like the end of the file, but they have added a couple of hundred blank lines, then their hacking code right at the bottom.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Jan 2012 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>Rails 3.1 replacement for filter_chain</title>
+        <link>http://www.whilefalse.net/2011/09/29/rails-31-replacement-filter_chain</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/09/29/rails-31-replacement-filter_chain</guid>
+        <description>&lt;p&gt;In previous versions of rails, you could do MyController.filter_chain to get an object representing the filters on a controller.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This has been deprecated in new rails versions, but it took a bit of digging around to get to the replacement:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;MyController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_process_action_callbacks&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There are a load of other _*_callbacks methods which store other callbacks, check these by running this in a shell:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;MyController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/callbacks/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 29 Sep 2011 00:00:00 +0100</pubDate>
+      </item>
+    
+      <item>
+        <title>Bundle Install Git Post Merge Hook</title>
+        <link>http://www.whilefalse.net/2011/06/10/bundle-install-git-post-merge-hook</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/06/10/bundle-install-git-post-merge-hook</guid>
+        <description>&lt;p&gt;Who wants to type “bundle install” all the time? 
+Not me, that’s who!&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Chuck this in &lt;em&gt;.git/hooks/post-merge&lt;/em&gt; and make it executable.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1019087.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Hey Presto! Auto bundley goodness - saves you 14 characters every time you change your Gemfile!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jun 2011 00:00:00 +0100</pubDate>
+      </item>
+    
+      <item>
+        <title>Rails 3 counter_cache with has_many :through</title>
+        <link>http://www.whilefalse.net/2011/04/05/rails-3-counter-cache-has_many-through</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/04/05/rails-3-counter-cache-has_many-through</guid>
+        <description>&lt;p&gt;After an evening of getting knee deep in the Rails core debugging and issue with counter_cache on a has_many :through, it seems this &lt;a href=&quot;https://rails.lighthouseapp.com/projects/8994/tickets/2824-patch-has_many-through-doesnt-update-counter_cache-on-join-model-correctly&quot;&gt;has been reported on lighthouse&lt;/a&gt;, and &lt;a href=&quot;https://github.com/rails/rails/commit/52f09eac5b3d297021ef726e04ec19f6011cb302&quot;&gt;a fix has been applied in edge&lt;/a&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The issue is this.&lt;/p&gt;
+
+&lt;p&gt;In my scenario, I have a Drink, which has many Ingredient through a DrinkIngredient model. I also have a counter_cache called &lt;em&gt;ingredients_count&lt;/em&gt; to keep track of how many ingredients each drink has.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Drink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;has_many&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;drink_ingredients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:dependent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:destroy&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;has_many&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:through&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:drink_ingredients&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Ingredient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;has_many&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;drink_ingredients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:dependent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:destroy&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;has_many&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;drinks&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:through&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:drink_ingredients&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DrinkIngredient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;belongs_to&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:drink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:counter_cache&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ingredients_count&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;belongs_to&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ingredient&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now that works as expected for the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:ingredients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;All good, yeh?&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;On noes! Deleting a relationship doesn’t update the counter_cache. That’s because of this, in &lt;em&gt;&lt;a href=&quot;https://github.com/rails/rails/blob/v3.0.6.rc2/activerecord/lib/active_record/associations/has_many_through_association.rb&quot;&gt;activerecord/lib/active_record/associations/has_many_through_association.rb&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# TODO - add dependent option support&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;delete_records&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;records&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;klass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@reflection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;through_reflection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;klass&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;records&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;associate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;klass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;construct_join_attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;associate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It uses delete_all, so when you delete from the association, the before_destroy callbacks, and hence the counter_cache callbacks aren’t triggered.&lt;/p&gt;
+
+&lt;p&gt;The fix I mentioned above is in edge, but for those of us on 3.0.*, I’ve found this to make things work as expected. Add this to the Drink class:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;has_many&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ingredients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:through&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:drink_ingredients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:after_remove&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:decrement_ingredients_count&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;decrement_ingredients_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decrement_counter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:ingredients_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This manually decrements the counter on the collection’s &lt;em&gt;after_remove&lt;/em&gt; callback, which does get called when you delete something from the collection.&lt;/p&gt;
+
+&lt;p&gt;This passes the following spec, which I think covers everything - let me know if I’ve missed anything:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Has a working ingredients count&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;New Drink&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;My new drink&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;ss&quot;&gt;:ingredients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ING1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ING2&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;ing3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ING3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ing3&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ing3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destroy&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete_all&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;New Drink&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;My new drink&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ING3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ingredient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;ING3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;drink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ingredients_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Tue, 05 Apr 2011 00:00:00 +0100</pubDate>
+      </item>
+    
+      <item>
+        <title>Rubix Cube 5x5 Parity Algorithm</title>
+        <link>http://www.whilefalse.net/2011/03/25/rubix-cube-5x5-parity-algorithm</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/03/25/rubix-cube-5x5-parity-algorithm</guid>
+        <description>&lt;p&gt;Nothing to see here, just an aid to memory:&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mostlymartin.blogspot.com/2010/02/5x5-edge-parity-error.html&quot;&gt;http://mostlymartin.blogspot.com/2010/02/5x5-edge-parity-error.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.stefan-pochmann.info/spocc/other_stuff/4x4_5x5_algs/?section=FixOrientationParity&quot;&gt;http://www.stefan-pochmann.info/spocc/other_stuff/4x4_5x5_algs/?section=FixOrientationParity&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>CakePHP pagination and filtering</title>
+        <link>http://www.whilefalse.net/2011/03/25/cakephp-pagination-and-filtering</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/03/25/cakephp-pagination-and-filtering</guid>
+        <description>&lt;p&gt;Here’s another little trick in CakePHP - it’s quite often that someone will request a big old list of paginated data, along with filters on that data.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not a massive fan of cakes named parameters (the “/key:value/” doodah in the url) - HTTP already has a method to do this - it’s called a query string, and I don’t see why they’ve tried to reinvent the wheel.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I want to use query string parameters for my filters. The only issue with this is that the paginator helper then doesn’t remember the filters when you change page.&lt;/p&gt;
+
+&lt;p&gt;Here’s how to make sure all you’re query string parameters are carried over. Just before you add your pagination numbers or next/prev etc., do this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Paginator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;url&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;?&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That ugly-ol’ “unset” is there because for some reason unknown to me, Cake adds the current url in that array as if it where a query string parameter.&lt;/p&gt;
+
+&lt;p&gt;Of course you then chuck all this into an element with the rest of your pagination and never worry about it agin.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>CakePHP get controller from model</title>
+        <link>http://www.whilefalse.net/2011/03/24/cakephp-get-controller-model</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/03/24/cakephp-get-controller-model</guid>
+        <description>&lt;p&gt;As much as MVC is great, sometimes there’s that little requirement that forces you to go against the standard way of doing things.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case, my colleague &lt;a href=&quot;http://twitter.com/samcambridge&quot;&gt;Sam&lt;/a&gt; was writing a beforeSave method in his AppModel. It needed to check if some conditions were true (can’t really disclose what they are - but something to do with dates). If these conditions failed, we wanted to redirect the user and set a session flash message saying something scary like “ACCESS DENIED”.&lt;/p&gt;
+
+&lt;p&gt;The MVC person in me would have said that you shouldn’t be doing this from a model, but having the flash and redirect code in the controller would have sort of defeated the point of generifying the code into the AppModel.&lt;/p&gt;
+
+&lt;p&gt;For future reference, here’s how you go about getting access to a controller from a model.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Controller&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;App&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$appController&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;AppController&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$appController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;constructClasses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Of course you can do this with any other model to get a specific instance. The “constructClasses()” line makes sure that all the controller’s components and models are loaded in for you to access. So in our case, we could then do…&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$appController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Session&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setFlash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ACCESS DENIED&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$appController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;redirect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$somewhere&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>Binding energy, fusion and fission</title>
+        <link>http://www.whilefalse.net/2011/03/06/binding-energy-fusion-and-fissio</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/03/06/binding-energy-fusion-and-fissio</guid>
+        <description>&lt;p&gt;There seem to be two conventions for binding energy, one treating it as the (negative) potential energy due to the nucleons being close together, the other treating it as the (positive) energy needed to separate the nucleons.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Both conventions lead to the same conclusions, but the only public domain graph I could come across used the second, so I’ll use that.&lt;/p&gt;
+
+&lt;h4 id=&quot;binding-energy&quot;&gt;Binding energy&lt;/h4&gt;
+&lt;p&gt;So in this case, binding energy is &lt;em&gt;the amount of energy that needs to be supplied in order to separate all the nucleons&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The binding energy of a nucleus tends to increases as you add more nucleons, because there’s more of them to move.&lt;/p&gt;
+
+&lt;h4 id=&quot;binding-energy-per-nucleon&quot;&gt;Binding energy per nucleon&lt;/h4&gt;
+&lt;p&gt;In order to compare nuclei, we use the &lt;strong&gt;binding energy per nucleon&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Higher&lt;/em&gt; values mean the nucleons are in general &lt;em&gt;harder to pull apart&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Lower&lt;/em&gt; values mean the nucleons are in general &lt;em&gt;easier to pull apart&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;nuclear-processes&quot;&gt;Nuclear Processes&lt;/h4&gt;
+&lt;p&gt;Different nuclei have different binding energies per nucleon, so when we create new nuclei as a result of nuclear processes, we get a &lt;em&gt;change in binding energy per nucleon&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the binding energy per nucleon increases, we have to &lt;em&gt;put in more energy than before to split them apart&lt;/em&gt;. Because energy is conserved, the nucleus must have released this extra energy to the outside world. If the binding energy per nucleon decreases, we have to put in &lt;em&gt;less energy than before&lt;/em&gt;, so the nucleus must have acquired some energy.&lt;/p&gt;
+
+&lt;p&gt;Therefore, &lt;em&gt;an increase in binding energy per nucleon means a release of energy&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;fusion-and-fission&quot;&gt;Fusion and fission&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/img/Binding_energy_curve_-_common_isotopes.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;Source: &lt;a href=&quot;http://en.wikipedia.org/wiki/File:Binding_energy_curve_-_common_isotopes.svg&quot;&gt;Wikimedia Commons&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;For nuclei less massive than iron (Fe), an increase in binding energy per nucleon (and thus release of energy) is achieved by &lt;em&gt;an increase in nucleons&lt;/em&gt; (i.e. fusion).&lt;br /&gt;
+For nuclei more massive than iron, an increase in binding energy per nucleon (and thus release of energy) is achieved by &lt;em&gt;a decrease in nucleons&lt;/em&gt; (i.e. fission).&lt;/p&gt;
+
+&lt;h4 id=&quot;the-potential-argument&quot;&gt;The potential argument&lt;/h4&gt;
+&lt;p&gt;Just for completeness, the same can be argued using the convention that binding energy is negative. In this case it can be interpreted as the potential energy of the nucleus due to the proximity of the nucleons, with the zero point of potential at infinite distance.&lt;/p&gt;
+
+&lt;p&gt;Binding energy in this case is always negative, and a smaller (more negative) binding energy means that more energy must be supplied to pull the nucleons apart.&lt;/p&gt;
+
+&lt;p&gt;Using this analysis, the graph above would be flipped vertically, so Fe has the least binding energy per nucleon. A &lt;em&gt;decrease in binding energy&lt;/em&gt; then corresponds to the nucleus releasing some of its potential energy, and the arguments for fission and fusion follow since the graph is flipped.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>SPF and Email Craziness</title>
+        <link>http://www.whilefalse.net/2011/02/09/spf-and-email-craziness</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/02/09/spf-and-email-craziness</guid>
+        <description>&lt;p&gt;Email terrifies me - I just find it incredibly complex. Luckily, some folks have made it really easy to generate and add SPF records.&lt;!--more--&gt;
+&lt;br /&gt;&lt;br /&gt;
+This SPF setup wizard generates your DNS records for you based on a load of questions:&lt;br /&gt;
+&lt;a href=&quot;http://old.openspf.org/wizard.html&quot;&gt;http://old.openspf.org/wizard.html&lt;/a&gt;
+&lt;br /&gt;
+You need to add them as both TXT and SPF DNS records.
+&lt;br /&gt;&lt;br /&gt;
+This dude created a nice checking tool to see what SPF records are setup on your domain and if they are valid:&lt;br /&gt;
+&lt;a href=&quot;http://www.kitterman.com/spf/validate.html&quot;&gt;http://www.kitterman.com/spf/validate.html&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+Finally, this is by far the aweomest tool - send an email to &lt;strong&gt;check-auth-me=example.com@verifier.port25.com&lt;/strong&gt; and it will reply to me@example.com with some email checks, letting you know how you’re seen to other people.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Feb 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>Html5 Canvas Tetris Clone</title>
+        <link>http://www.whilefalse.net/2011/01/30/html5-canvas-tetris-clone</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/01/30/html5-canvas-tetris-clone</guid>
+        <description>&lt;p&gt;Here’s a little tetris clone I made in html5 and canvas.&lt;!--more--&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;canvas style=&quot;border: 3px solid black&quot; width=&quot;400&quot; height=&quot;400&quot; id=&quot;game&quot;&gt;
+Ah rats! You need a better browser mate.
+&lt;/canvas&gt;
+&lt;span style=&quot;position:relative; top: -190px; left: -150px;&quot;&gt;Points: &lt;span style=&quot;font-size: 30px;&quot; id=&quot;points&quot;&gt;0&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;position:relative; top: -140px; left: -250px;&quot;&gt;Level Up In: &lt;span style=&quot;font-size: 30px;&quot; id=&quot;pointsToGo&quot;&gt;0&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;position:relative; top: -90px; left: -350px;&quot;&gt;Speed: &lt;span style=&quot;font-size: 30px;&quot; id=&quot;speed&quot;&gt;0&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Left:&lt;/strong&gt; Left Arrow&lt;br /&gt;
+&lt;strong&gt;Right:&lt;/strong&gt; Right Arrow&lt;br /&gt;
+&lt;strong&gt;Down:&lt;/strong&gt; Down Arrow&lt;br /&gt;
+&lt;strong&gt;Rotate:&lt;/strong&gt; Up Arrow&lt;br /&gt;
+&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/tetris.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;/js/tetris.js&quot;&gt;Here’s the code…&lt;/a&gt; MIT license and all that jazz.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Jan 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>CakePHP Remove Time Printout On AJAX</title>
+        <link>http://www.whilefalse.net/2011/01/26/cakephp-remove-time-printout-ajax</link>
+        <guid isPermaLink="true">http://www.whilefalse.net/2011/01/26/cakephp-remove-time-printout-ajax</guid>
+        <description>&lt;p&gt;One of the projects I’m working on at work has a load of this scattered around the codebase for AJAX, which really grates on me:&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nx&quot;&gt;Configure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;debug&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is all because of the little ‘helpful’ comment that Cake puts at the bottom of all your rendered view that tells you how long it took. So if you’ve got some JSON coming back, you get:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{foo: bar, bar: foo}&amp;lt;!-- 0.01s --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Which is incredibly annoying. Well, I found the culprit - right at the bottom of app/webroot/index.php, just get rid of these lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Configure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;lt;!-- &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMicrotime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$TIME_START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;s --&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Please, lets stop writing configuration changes in our action code, and start deleting this little thing so we don’t have to worry about it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
+      </item>
+    
+  </channel>
+</rss>
