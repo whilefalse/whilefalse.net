@@ -38,11 +38,32 @@
 			var icons = { s: orangeIcon, e: redIcon, both: greenIcon, all: blueIcon };
 
 			var places = [
-				["England", 51.5098, -0.1205, "all"],
-				["Scotland", 55.9477, -3.1852, "all"],
-				["Wales", 52.2935, -3.7726, "both"],
-				["Spain", 39.901, -2.098, "both"],
-				["Portugal", 39.635, -7.366, "s"],
+				["England", "all"],
+				["Scotland", "all"],
+				["Wales", "both"],
+				["Spain", "both"],
+				["Portugal", "s"],
+				["Ireland", "both"],
+				["Northern Ireland", "both"],
+				["France", "both"],
+				["Germany", "all"],
+				["Switzerland", "s"],
+				["Italy", "all"],
+				["Netherlands", "all"],
+				["Belgium", "both"],
+				["Turkey", "s"],
+				["Cyprus", "s"],
+				["Greece", "s"],
+				["Czech Republic", "both"],
+				["Australia", "both"],
+				["United Arab Emirates", "both"],
+				["Bali, Indonesia", "e"],
+				["New Zealand", "e"],
+				["Singapore", "e"],
+				["Canada", "e"],
+				["Lanzarote", "all"],
+				["Tenerife", "both"],
+				["Fuereventura", "all"]
 			];
 
 			var map = L.map('map').setView([40.0, 0.0], 2);
@@ -53,12 +74,21 @@
 
 			places.forEach(function(place){
 				var name = place[0];
-				var lat = place[1];
-				var lon = place[2];
-				var who = place[3];
-				L.marker([lat, lon], {icon: icons[who]})
-					.addTo(map)
-					.bindTooltip(name + ': ' + who);
+				var who = place[1];
+				var url = "http://nominatim.openstreetmap.org/search/" + encodeURIComponent(name) + "?format=json";
+				var request = new XMLHttpRequest();
+				request.onreadystatechange = function () {
+    					if (this.readyState === 4){
+						var json = JSON.parse(request.responseText);
+						var lat = json[0].lat;
+						var lon = json[0].lon;
+						L.marker([lat, lon], {icon: icons[who]})
+							.addTo(map)
+							.bindTooltip(name + ': ' + who);
+					}
+				};
+				request.open('GET', url, true);
+				request.send(null);
 			});
 		</script>
 	</body>
